@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Iron Fight Boxing Club – boksen, kickboksen en thaiboksen."
+    />
+    <title>Home | Iron Fight Boxing Club</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
+    ></script>
+    <script defer src="js/config.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Direct naar inhoud</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="logo"
+          href="index.html"
+          aria-label="Iron Fight Boxing Club, home"
+          >IRON <span>FIGHT</span><small>BOXING CLUB</small></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Hoofdnavigatie">
+          <a href="index.html" aria-current="page">Home</a
+          ><a href="schedule.html">Lesrooster</a
+          ><a href="trial.html">Proefles</a>
+          <a class="button button-outline" id="login-link" href="login.html"
+            >Inloggen</a
+          >
+          <a class="button" id="register-link" href="register.html"
+            >Registreren</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">DISCIPLINE / KRACHT / TECHNIEK</p>
+            <h1>WORD STERKER.<br /><span>VERLEG JE GRENZEN.</span></h1>
+            <p>
+              Welkom bij Iron Fight Boxing Club. Ontdek boksen, kickboksen en
+              thaiboksen in een sportieve omgeving voor ieder niveau.
+            </p>
+            <div class="actions">
+              <a class="button" href="trial.html">Gratis proefles aanvragen</a
+              ><a class="button button-outline" href="schedule.html"
+                >Bekijk lesrooster</a
+              >
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <span>IF</span><small>01 / TRAIN WITH PURPOSE</small>
+          </div>
+        </div>
+      </section>
+      <section class="section container" aria-labelledby="training-title">
+        <p class="eyebrow">01 / TRAININGEN</p>
+        <h2 id="training-title">Onze trainingen</h2>
+        <p class="section-intro">
+          Kies de training die bij jou past, van beginner tot gevorderde.
+        </p>
+        <div class="card-grid">
+          <article class="training-card">
+            <div class="card-art"><span>01</span><small>BOXING</small></div>
+            <div class="card-content">
+              <h3>Boksen</h3>
+              <p>Leer de techniek en basis van het klassieke boksen.</p>
+              <a class="button button-outline" href="schedule.html?style=Boksen"
+                >Bekijk lesrooster</a
+              >
+            </div>
+          </article>
+          <article class="training-card">
+            <div class="card-art"><span>02</span><small>KICKBOXING</small></div>
+            <div class="card-content">
+              <h3>Kickboksen</h3>
+              <p>Combineer stoten en trappen en verbeter je conditie.</p>
+              <a
+                class="button button-outline"
+                href="schedule.html?style=Kickboksen"
+                >Bekijk lesrooster</a
+              >
+            </div>
+          </article>
+          <article class="training-card">
+            <div class="card-art"><span>03</span><small>MUAY THAI</small></div>
+            <div class="card-content">
+              <h3>Thaiboksen</h3>
+              <p>Leer technieken met stoten, trappen, knieën en ellebogen.</p>
+              <a
+                class="button button-outline"
+                href="schedule.html?style=Thaiboksen"
+                >Bekijk lesrooster</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section section-alt" aria-labelledby="trainer-title">
+        <div class="container">
+          <p class="eyebrow">02 / TEAM</p>
+          <h2 id="trainer-title">Onze trainers</h2>
+          <p class="section-intro">
+            Maak kennis met het voorbeeldteam van Iron Fight.
+          </p>
+          <div class="card-grid">
+            <article class="trainer-card">
+              <div class="avatar" aria-hidden="true">T1</div>
+              <h3>Trainer 1</h3>
+              <p>Bokstrainer</p>
+            </article>
+            <article class="trainer-card">
+              <div class="avatar" aria-hidden="true">T2</div>
+              <h3>Trainer 2</h3>
+              <p>Kickbokstrainer</p>
+            </article>
+            <article class="trainer-card">
+              <div class="avatar" aria-hidden="true">T3</div>
+              <h3>Trainer 3</h3>
+              <p>Thaibokstrainer</p>
+            </article>
+          </div>
+          <div class="cta">
+            <div>
+              <h2>Klaar voor je eerste ronde?</h2>
+              <p>Vraag een gratis proefles aan.</p>
+            </div>
+            <a class="button" href="trial.html">Start hier</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html"
+            >IRON <span>FIGHT</span><small>BOXING CLUB</small></a
+          >
+          <p>Discipline. Kracht. Techniek.</p>
+        </div>
+        <div>
+          <h2>Training</h2>
+          <a href="schedule.html">Lesrooster</a
+          ><a href="trial.html">Gratis proefles</a>
+        </div>
+        <div>
+          <h2>Informatie</h2>
+          <a href="privacy.html">Privacyverklaring</a>
+          <p>Fictief schoolproject</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">© 2026 Iron Fight Boxing Club</div>
+    </footer>
+  </body>
+</html>
